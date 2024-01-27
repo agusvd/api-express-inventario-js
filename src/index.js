@@ -3,6 +3,7 @@ import express from 'express';
 import categoryRoutes from './routes/category.routes.js';
 import productRoutes from './routes/products.routes.js';
 import authRoutes from './routes/auth.routes.js';
+
 import { PORT } from './secrets.js';
 
 const app = express();
